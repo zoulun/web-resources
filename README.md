@@ -7,4 +7,4 @@
 
 [前端面试查漏补缺](https://juejin.im/post/5c6e6063f265da2da53ec8f3)
 
-[React中setState真的是异步的吗](https://segmentfault.com/a/1190000014131698)
+[React中setState真的是异步的吗](https://juejin.im/post/5ac1aaad6fb9a028d444bb87)
