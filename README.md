@@ -12,3 +12,5 @@
 [React中setState真的是异步的吗](https://juejin.im/post/5ac1aaad6fb9a028d444bb87)
 
 [setState异步、同步与进阶](https://juejin.im/post/5bf1444cf265da614a3a1660)
+
+[函数防抖和节流](https://www.jianshu.com/p/c8b86b09daf0)
