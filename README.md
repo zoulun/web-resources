@@ -15,5 +15,5 @@
 
 [函数防抖和节流](https://www.jianshu.com/p/c8b86b09daf0)
 
-# node：
+# node
 [Node.js 优秀学习资源汇总](https://www.jianshu.com/p/e37835da4624)
