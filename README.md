@@ -14,3 +14,6 @@
 [setState异步、同步与进阶](https://juejin.im/post/5bf1444cf265da614a3a1660)
 
 [函数防抖和节流](https://www.jianshu.com/p/c8b86b09daf0)
+
+#node：
+[Node.js 优秀学习资源汇总](https://www.jianshu.com/p/e37835da4624)
