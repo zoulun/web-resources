@@ -17,5 +17,7 @@
 
 [JavaScript的面向对象的理解](https://www.jianshu.com/p/44ddfb089a11)
 
+[我对函数式编程的理解](https://zhuanlan.zhihu.com/p/47635295)
+
 # node
 [Node.js 优秀学习资源汇总](https://www.jianshu.com/p/e37835da4624)
