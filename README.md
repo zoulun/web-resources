@@ -19,5 +19,7 @@
 
 [我对函数式编程的理解](https://zhuanlan.zhihu.com/p/47635295)
 
+[require（）方法引用规则解释](https://blog.csdn.net/m0_48459838/article/details/113836994)
+
 # node
 [Node.js 优秀学习资源汇总](https://www.jianshu.com/p/e37835da4624)
