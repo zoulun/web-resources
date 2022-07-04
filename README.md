@@ -23,7 +23,7 @@
 
 [get请求和post请求的详细区别](https://blog.csdn.net/zlczsw/article/details/91046081)
 
-[js时间循环机制](https://blog.csdn.net/weixin_43842373/article/details/124485407)
+[js事件循环机制](https://blog.csdn.net/weixin_43842373/article/details/124485407)
 
 # node
 [Node.js 优秀学习资源汇总](https://www.jianshu.com/p/e37835da4624)
