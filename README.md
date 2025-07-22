@@ -150,6 +150,13 @@ promise A+规范，统一了异步处理模型，只要一个对象满足有then
 4.三方模块查找
 没有内置模块的话会从node_modules查找，查找逻辑就会跟文件、文件夹查找一样
 
+25.for in和for of区别
+for in是用来迭代对象可枚举的属性，数组是下标，对象是key
+for of是用来遍历可迭代对象，数组、Map、Set等，prototype有[symbol.interator]
+
+26.什么是词法环境
+是变量和函数作用域的管理机制
+
 
 react
 1. hook的有什么用
