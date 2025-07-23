@@ -115,6 +115,7 @@ promise A+规范，统一了异步处理模型，只要一个对象满足有then
 解决了：1.同意标准。2.回调地狱。3.同意的错误捕获。4.并发控制，promise.all  promise.race
 
 19.axios拦截器原理
+intercept.request.use和response.use会分别收集请求、相应拦截函数到对应数组，然后再遍历收集的数据，请求拦截函数放到chain最前面，响应拦截函数放到chain数组最后面，最后再遍历chain.length，每次取出两个出来执行（取两个的原因是，收集的时候有fulfilled和rejected两个函数）。执行流程是：发起请求 > 请求拦截 > api请求 > 响应拦截 > 最终响应
 
 20.1. instanceof，检测构造函数的prototype是否出现在某个实例对象的原型链上
 
