@@ -157,6 +157,39 @@ for of是用来遍历可迭代对象，数组、Map、Set等，prototype有[symb
 
 26.什么是词法环境
 是变量和函数作用域的管理机制
+27.柯里化
+将多参数的函数转换成单参数的函数，特点是，参数复用，提前返回，延迟执行。原理，利用闭包把接收到的参数保存在作用域用，等待最后使用，并返回一个新函数继续接收剩余参数。
+/**
+● @description: 将函数柯里化的工具函数
+● @param {Function} fn 待柯里化的函数
+● @param {array} args 已经接收的参数列表
+● @return {Function}
+ */
+const currying = function(fn, ...args) {
+ // fn需要的参数个数
+ const len = fn.length
+ // 返回一个函数接收剩余参数
+ return function (...params) {
+ // 拼接已经接收和新接收的参数列表
+ let _args = [...args, ...params]
+ // 如果已经接收的参数个数还不够，继续返回一个新函数接收剩余参数
+ if (_args.length < len) {
+     return currying.call(this, fn, ..._args)
+ }
+   // 参数全部接收完调用原函数
+ return fn.apply(this, _args)
+ }
+}
+
+28.interface和type区别
+1.type是类型变量，可以表示任何类型，interface是接口，只能表示对象结构的类型
+2.type继承用&，interface用extends
+3.多次声明的同名 interface 会进行声明合并（不能进行类型覆盖的修改）
+29.react缺点
+1.初始化项目配置较负责
+2.19版本后包立体增加近30%，GZIP后60kb左右
+3.更新方面，父组件更新会影响子组件重新渲染，造成不必要的渲染开销，需要手动通过memo、useCallback控制
+
 
 
 react
